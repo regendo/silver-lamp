@@ -1,10 +1,10 @@
 ﻿using Microsoft.Win32;
 using System;
 
-namespace NightModeSwitcher {
+namespace SilverLamp {
 	class Program {
 		static void Main(string[] args) {
-			const string usageMsg = "Usage: NightModeSwitcher.exe [on|off]";
+			const string usageMsg = "Usage: SilverLamp.exe [on|off]";
 			RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize", true);
 			int newValue;
 

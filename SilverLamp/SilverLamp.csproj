@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B90832D6-1876-4A18-A795-068285AC45BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NightModeSwitcher</RootNamespace>
-    <AssemblyName>NightModeSwitcher</AssemblyName>
+    <RootNamespace>SilverLamp</RootNamespace>
+    <AssemblyName>SilverLamp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
