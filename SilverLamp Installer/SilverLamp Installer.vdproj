@@ -15,20 +15,8 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_000C3F6FD9AB84BB017F9099BB4AA5A5"
-        "OwnerKey" = "8:_56F050EE0C7049E096532522CB54A19D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_56F050EE0C7049E096532522CB54A19D"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_000C3F6FD9AB84BB017F9099BB4AA5A5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,6 +75,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -116,37 +112,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_000C3F6FD9AB84BB017F9099BB4AA5A5"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_000C3F6FD9AB84BB017F9099BB4AA5A5"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1387120278444F4D97C9CB09EFE3FD14"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -335,48 +300,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0011FD12C3604724BE85AB819E7900E7"
-            {
-            "Name" = "8:Toggle dark mode"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_56F050EE0C7049E096532522CB54A19D"
-            "Folder" = "8:_549D19A6A445430E83227B8F418D9A4A"
-            "WorkingFolder" = "8:_1387120278444F4D97C9CB09EFE3FD14"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7889F2A27F0F4E3C8F527ED47A46345A"
-            {
-            "Name" = "8:Turn on dark mode"
-            "Arguments" = "8:off"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_56F050EE0C7049E096532522CB54A19D"
-            "Folder" = "8:_549D19A6A445430E83227B8F418D9A4A"
-            "WorkingFolder" = "8:_1387120278444F4D97C9CB09EFE3FD14"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A862210BD6B24D34BDD79F3AA9032E3D"
-            {
-            "Name" = "8:Turn off dark mode"
-            "Arguments" = "8:on"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_56F050EE0C7049E096532522CB54A19D"
-            "Folder" = "8:_549D19A6A445430E83227B8F418D9A4A"
-            "WorkingFolder" = "8:_1387120278444F4D97C9CB09EFE3FD14"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C815A0B18E3446AF9BABD9C1270DC2FB"
             {
             "Name" = "8:Toggle the lights"
